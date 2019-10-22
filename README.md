@@ -6,7 +6,7 @@ This script identifies duplicated rsIDs and appends a serial number to make them
 
 ## Usage
 ```
-bim_dedup.py [-h] [input]
+python3 bim_dedup.py [-h] [input]
 
 positional arguments:
   input       The BIM file to read in. Defaults to STDIN if '-' or no value is
